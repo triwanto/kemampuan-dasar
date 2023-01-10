@@ -16,6 +16,10 @@ Seperti namanya, yaitu mengembangkan perangkat lunak dimulai dari penemuan ide, 
 
 *Agile Software Development* adalah metode pengembangan software dimana pengguna dapat memberikan masukan kepada pengembang pada fitur aplikasi yang sudah ada maupun belum dan pengembang dapat langsung mengetahui di bagian mana pengembangan software difokuskan sehingga pengembangan software bisa cepat dan efisien "agile". Karena akan akan selalu mendapatakan masukan dari pengguna, maka proses pengembangannya akan terus-menerus dan berulang sesuai dengan kebutuhan pengguna.
 
-## *SCRUM*
+## *Scrum*
+
+Metode pengembangan software yang sering digunakan sebuah organisasi terstruktur yang terdiri dari *product owner, Scrum master,* dan *Scrum team*.
 
 ## *Extreme Programing*
+
+Metode pengembangan software yang digunakan 
