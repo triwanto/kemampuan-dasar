@@ -8,4 +8,9 @@ Kebanyakan orang mengira bahwa teknologi informasi atau yang sering dikenal deng
 
 Menurut saya, ilmu komputer lebih condong  dalam penemuan teknologi baru atau mengembangkan yang sudah ada dan pengaplikasiannya dalam software maupun hardware. Misalnya, teknologi blockchain dalam mata uang digital. Sedangkan Teknik Informatika lebih ke bagaimana teknologi tersebut bisa digunakan oleh manusia. Misalnya, bagaimana teknologi blockchain bsa digunakan, yaitu dengan mengembangkan dompet digital.
 
-## 
+## Pengembangan Perangkat Lunak
+
+Seperti namanya, yaitu mengembangkan perangkat lunak dimulai dari penemuan ide, merancang, mengaplikasikan, uji coba, hingga menjaga agar software tetap berfungsi.
+
+## *Agile Software Development*
+
