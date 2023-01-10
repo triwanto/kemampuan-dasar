@@ -22,4 +22,4 @@ Metode pengembangan software yang sering digunakan sebuah organisasi terstruktur
 
 ## *Extreme Programing*
 
-Metode pengembangan software yang digunakan 
+Metode pengembangan software yang digunakan oleh organisasi atau kelompok beranggotakan sedikit.
