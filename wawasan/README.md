@@ -14,3 +14,4 @@ Seperti namanya, yaitu mengembangkan perangkat lunak dimulai dari penemuan ide, 
 
 ## *Agile Software Development*
 
+*Agile Software Development* adalah metode pengembangan software dimana pengguna dapat memberikan masukan kepada pengembang pada fitur aplikasi yang sudah ada maupun belum dan pengembang dapat langsung mengetahui di bagian mana pengembangan software difokuskan sehingga pengembangan software bisa cepat dan efisien "agile".
