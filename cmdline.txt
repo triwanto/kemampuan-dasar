@@ -1,0 +1,507 @@
+1. ping
+
+C:\Users\hello>ping google.com
+
+Pinging google.com [172.253.118.102] with 32 bytes of data:
+Reply from 172.253.118.102: bytes=32 time=51ms TTL=105
+Reply from 172.253.118.102: bytes=32 time=45ms TTL=105
+Reply from 172.253.118.102: bytes=32 time=40ms TTL=105
+Reply from 172.253.118.102: bytes=32 time=31ms TTL=105
+
+Ping statistics for 172.253.118.102:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 51ms, Average = 41ms
+
+
+
+
+
+2. cd
+
+C:\Users\hello>cd C:\praxis-academy\kemampuan-dasar-1\latihan
+
+C:\praxis-academy\kemampuan-dasar-1\latihan>
+
+
+
+
+
+3. dir
+
+C:\praxis-academy\kemampuan-dasar-1\latihan>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 78D2-4969
+
+ Directory of C:\praxis-academy\kemampuan-dasar-1\latihan
+
+10/01/2023  09:06    <DIR>          .
+10/01/2023  09:04    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  99.086.204.928 bytes free
+
+
+
+
+
+4. whoami
+
+C:\Users\hello>whoami
+three\hello
+
+
+
+
+
+5. hostname
+
+C:\Users\hello>hostname
+three
+
+
+
+
+
+6. getmac
+
+C:\Users\hello>getmac
+
+Physical Address    Transport Name
+=================== ==========================================================
+D0-C5-D3-C9-00-71   \Device\Tcpip_{80EC72D6-13D7-4CD7-8AEE-AA2A9192C2D0}
+
+
+
+
+
+7. systeminfo
+
+C:\Users\hello>systeminfo
+
+Host Name:                 THREE
+OS Name:                   Microsoft Windows 11 Home Single Language
+OS Version:                10.0.22000 N/A Build 22000
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          hello.triwanto@outlook.com
+Registered Organization:
+Product ID:                00327-35110-74674-AAOEM
+Original Install Date:     05/10/2022, 00:28:20
+System Boot Time:          08/01/2023, 09:58:39
+System Manufacturer:       ASUSTeK COMPUTER INC.
+System Model:              VivoBook 14_ASUS Laptop X407UAR
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 142 Stepping 9 GenuineIntel ~2304 Mhz
+BIOS Version:              American Megatrends Inc. X407UAR.306, 08/08/2019
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume3
+System Locale:             en-gb;English (United Kingdom)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC+07:00) Bangkok, Hanoi, Jakarta
+Total Physical Memory:     3.974 MB
+Available Physical Memory: 613 MB
+Virtual Memory: Max Size:  9.862 MB
+Virtual Memory: Available: 3.775 MB
+Virtual Memory: In Use:    6.087 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\THREE
+Hotfix(s):                 5 Hotfix(s) Installed.
+                           [01]: KB5020875
+                           [02]: KB5012170
+                           [03]: KB5019448
+                           [04]: KB5021234
+                           [05]: KB5019385
+Network Card(s):           1 NIC(s) Installed.
+                           [01]: Qualcomm Atheros QCA9377 Wireless Network Adapter
+                                 Connection Name: WiFi
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.0.254
+                                 IP address(es)
+                                 [01]: 192.168.0.101
+                                 [02]: fe80::8fc0:d039:6137:74fa
+Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+                           Virtualization Enabled In Firmware: Yes
+                           Second Level Address Translation: Yes
+                           Data Execution Prevention Available: Yes
+
+
+
+
+
+8. mkdir
+
+C:\praxis-academy\kemampuan-dasar-1>mkdir latihan
+
+
+
+
+
+9. tree
+
+C:\praxis-academy>tree
+Folder PATH listing
+Volume serial number is 78D2-4969
+C:.
+└───kemampuan-dasar-1
+    └───latihan
+
+
+
+
+
+10. cipher
+
+C:\praxis-academy>cipher
+
+ Listing C:\praxis-academy\
+ New files added to this directory will not be encrypted.
+
+U kemampuan-dasar-1
+
+
+
+
+
+11.netstat
+
+C:\Users\hello>netstat
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    127.0.0.1:64470        three:64615            ESTABLISHED
+  TCP    127.0.0.1:64470        three:64824            ESTABLISHED
+  TCP    127.0.0.1:64615        three:64470            ESTABLISHED
+  TCP    127.0.0.1:64824        three:64470            ESTABLISHED
+  TCP    192.168.0.101:49622    164:https              TIME_WAIT
+  TCP    192.168.0.101:49915    lb-140-82-113-26-iad:https  ESTABLISHED
+  TCP    192.168.0.101:49951    56:https               TIME_WAIT
+  TCP    192.168.0.101:49953    211:https              TIME_WAIT
+  TCP    192.168.0.101:49954    ac496eca2786416e6:https  TIME_WAIT
+  TCP    192.168.0.101:49955    server-52-85-57-113:https  TIME_WAIT
+  TCP    192.168.0.101:49956    66:https               TIME_WAIT
+  TCP    192.168.0.101:49958    142:https              TIME_WAIT
+  TCP    192.168.0.101:49959    28:https               TIME_WAIT
+  TCP    192.168.0.101:49960    56:https               TIME_WAIT
+  TCP    192.168.0.101:49961    server-52-85-57-113:https  TIME_WAIT
+  TCP    192.168.0.101:49962    ac496eca2786416e6:https  TIME_WAIT
+  TCP    192.168.0.101:49964    211:https              TIME_WAIT
+  TCP    192.168.0.101:49965    ac496eca2786416e6:https  TIME_WAIT
+  TCP    192.168.0.101:49966    ac496eca2786416e6:https  TIME_WAIT
+  TCP    192.168.0.101:49967    ac496eca2786416e6:https  TIME_WAIT
+  TCP    192.168.0.101:49969    211:https              TIME_WAIT
+  TCP    192.168.0.101:49971    164:https              TIME_WAIT
+  TCP    192.168.0.101:49977    142:https              TIME_WAIT
+  TCP    192.168.0.101:49978    server-18-161-52-68:https  TIME_WAIT
+  TCP    192.168.0.101:49979    240:https              TIME_WAIT
+  TCP    192.168.0.101:49980    a-0001:https           TIME_WAIT
+  TCP    192.168.0.101:49981    211:https              TIME_WAIT
+  TCP    192.168.0.101:49983    211:https              TIME_WAIT
+  TCP    192.168.0.101:49984    sgsg01:https           TIME_WAIT
+  TCP    192.168.0.101:49985    164:https              TIME_WAIT
+  TCP    192.168.0.101:49987    164:https              ESTABLISHED
+  TCP    192.168.0.101:49989    66:https               TIME_WAIT
+  TCP    192.168.0.101:49991    200:https              TIME_WAIT
+  TCP    192.168.0.101:49992    ac496eca2786416e6:https  TIME_WAIT
+  TCP    192.168.0.101:49994    52:https               TIME_WAIT
+  TCP    192.168.0.101:49995    server-108-138-139-78:https  TIME_WAIT
+  TCP    192.168.0.101:49996    ac496eca2786416e6:https  TIME_WAIT
+  TCP    192.168.0.101:49997    ac496eca2786416e6:https  TIME_WAIT
+  TCP    192.168.0.101:49998    ac496eca2786416e6:https  TIME_WAIT
+  TCP    192.168.0.101:49999    a-0003:https           ESTABLISHED
+  TCP    192.168.0.101:50000    164:https              ESTABLISHED
+  TCP    192.168.0.101:50002    4:https                TIME_WAIT
+  TCP    192.168.0.101:50003    123:http               ESTABLISHED
+  TCP    192.168.0.101:64484    84:https               ESTABLISHED
+  TCP    192.168.0.101:64525    2:https                ESTABLISHED
+  TCP    192.168.0.101:64533    a23-32-244-8:https     CLOSE_WAIT
+  TCP    192.168.0.101:64536    193:https              ESTABLISHED
+  TCP    192.168.0.101:64590    143:https              ESTABLISHED
+  TCP    192.168.0.101:64858    sa-in-f188:5228        ESTABLISHED
+  TCP    192.168.0.101:64937    29:http                CLOSE_WAIT
+  TCP    192.168.0.101:65159    whatsapp-chatd-edge-shv-03-xsp1:5222  ESTABLISHED
+
+
+
+
+
+12. pathping
+
+C:\Users\hello>pathping google.com
+
+Tracing route to google.com [74.125.24.102]
+over a maximum of 30 hops:
+  0  three [192.168.0.101]
+  1  254.0.168.192.in-addr.arpa [192.168.0.254]
+  2  1.2.168.192.in-addr.arpa [192.168.2.1]
+  3  1.1.168.192.in-addr.arpa [192.168.1.1]
+  4  1.0.168.192.in-addr.arpa [192.168.0.1]
+  5     *        *        *
+Computing statistics for 100 seconds...
+            Source to Here   This Node/Link
+Hop  RTT    Lost/Sent = Pct  Lost/Sent = Pct  Address
+  0                                           three [192.168.0.101]
+                                0/ 100 =  0%   |
+  1    3ms     0/ 100 =  0%     0/ 100 =  0%  254.0.168.192.in-addr.arpa [192.168.0.254]
+                                0/ 100 =  0%   |
+  2    5ms     0/ 100 =  0%     0/ 100 =  0%  1.2.168.192.in-addr.arpa [192.168.2.1]
+                                0/ 100 =  0%   |
+  3    6ms     0/ 100 =  0%     0/ 100 =  0%  1.1.168.192.in-addr.arpa [192.168.1.1]
+                              100/ 100 =100%   |
+  4  ---     100/ 100 =100%     0/ 100 =  0%  1.0.168.192.in-addr.arpa [192.168.0.1]
+
+Trace complete.
+
+
+
+
+
+13. date
+
+C:\Users\hello>date
+The current date is: 10/01/2023
+Enter the new date: (dd-mm-yy)
+
+
+
+
+
+14. time
+
+C:\Users\hello>time
+The current time is:  9:25:20,08
+Enter the new time:
+
+
+
+
+
+15. ipconfig
+
+C:\Users\hello>ipconfig
+
+Windows IP Configuration
+
+
+Wireless LAN adapter Local Area Connection* 8:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 9:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter WiFi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::8fc0:d039:6137:74fa%13
+   IPv4 Address. . . . . . . . . . . : 192.168.0.101
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.0.254
+
+
+
+
+
+16. color
+
+C:\Users\hello>color attr
+Sets the default console foreground and background colors.
+
+COLOR [attr]
+
+  attr        Specifies color attribute of console output
+
+Color attributes are specified by TWO hex digits -- the first
+corresponds to the background; the second the foreground.  Each digit
+can be any of the following values:
+
+    0 = Black       8 = Gray
+    1 = Blue        9 = Light Blue
+    2 = Green       A = Light Green
+    3 = Aqua        B = Light Aqua
+    4 = Red         C = Light Red
+    5 = Purple      D = Light Purple
+    6 = Yellow      E = Light Yellow
+    7 = White       F = Bright White
+
+If no argument is given, this command restores the color to what it was
+when CMD.EXE started.  This value either comes from the current console
+window, the /T command line switch or from the DefaultColor registry
+value.
+
+The COLOR command sets ERRORLEVEL to 1 if an attempt is made to execute
+the COLOR command with a foreground and background color that are the
+same.
+
+Press any key to continue . . .
+
+
+
+
+
+17. tracert
+
+C:\Users\hello>tracert google.com
+
+Tracing route to google.com [142.251.10.102]
+over a maximum of 30 hops:
+
+  1     4 ms     2 ms     1 ms  254.0.168.192.in-addr.arpa [192.168.0.254]
+  2     3 ms     3 ms     3 ms  1.2.168.192.in-addr.arpa [192.168.2.1]
+  3    16 ms    20 ms     5 ms  1.1.168.192.in-addr.arpa [192.168.1.1]
+  4     7 ms     5 ms     4 ms  1.0.168.192.in-addr.arpa [192.168.0.1]
+  5     *        *        *     Request timed out.
+  6     *        *        *     Request timed out.
+  7     8 ms    13 ms     7 ms  125.160.1.197
+  8     *       31 ms    32 ms  109.190.240.180.in-addr.arpa [180.240.190.109]
+  9     *        *       42 ms  109.190.240.180.in-addr.arpa [180.240.190.109]
+ 10    34 ms    33 ms    30 ms  82.205.240.180.in-addr.arpa [180.240.205.82]
+ 11    31 ms    32 ms    29 ms  226.49.125.74.in-addr.arpa [74.125.49.226]
+ 12    32 ms    31 ms    32 ms  225.240.170.108.in-addr.arpa [108.170.240.225]
+ 13    40 ms    29 ms    50 ms  241.240.170.108.in-addr.arpa [108.170.240.241]
+ 14    31 ms     *       53 ms  50.57.239.216.in-addr.arpa [216.239.57.50]
+ 15    31 ms    35 ms    31 ms  83.226.170.108.in-addr.arpa [108.170.226.83]
+ 16    34 ms    37 ms    42 ms  247.52.251.142.in-addr.arpa [142.251.52.247]
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26    42 ms    31 ms    29 ms  sd-in-f102.1e100.net [142.251.10.102]
+
+Trace complete.
+
+
+
+
+
+18. title
+
+C:\Users\hello>title latihan
+
+
+
+
+
+19. vol
+
+C:\Users\hello>vol c:
+ Volume in drive C has no label.
+ Volume Serial Number is 78D
+
+
+
+
+
+20. help
+
+C:\Users\hello>help
+For more information on a specific command, type HELP command-name
+ASSOC          Displays or modifies file extension associations.
+ATTRIB         Displays or changes file attributes.
+BREAK          Sets or clears extended CTRL+C checking.
+BCDEDIT        Sets properties in boot database to control boot loading.
+CACLS          Displays or modifies access control lists (ACLs) of files.
+CALL           Calls one batch program from another.
+CD             Displays the name of or changes the current directory.
+CHCP           Displays or sets the active code page number.
+CHDIR          Displays the name of or changes the current directory.
+CHKDSK         Checks a disk and displays a status report.
+CHKNTFS        Displays or modifies the checking of disk at boot time.
+CLS            Clears the screen.
+CMD            Starts a new instance of the Windows command interpreter.
+COLOR          Sets the default console foreground and background colors.
+COMP           Compares the contents of two files or sets of files.
+COMPACT        Displays or alters the compression of files on NTFS partitions.
+CONVERT        Converts FAT volumes to NTFS.  You cannot convert the
+               current drive.
+COPY           Copies one or more files to another location.
+DATE           Displays or sets the date.
+DEL            Deletes one or more files.
+DIR            Displays a list of files and subdirectories in a directory.
+DISKPART       Displays or configures Disk Partition properties.
+DOSKEY         Edits command lines, recalls Windows commands, and
+               creates macros.
+DRIVERQUERY    Displays current device driver status and properties.
+ECHO           Displays messages, or turns command echoing on or off.
+ENDLOCAL       Ends localization of environment changes in a batch file.
+ERASE          Deletes one or more files.
+EXIT           Quits the CMD.EXE program (command interpreter).
+FC             Compares two files or sets of files, and displays the
+               differences between them.
+FIND           Searches for a text string in a file or files.
+FINDSTR        Searches for strings in files.
+FOR            Runs a specified command for each file in a set of files.
+FORMAT         Formats a disk for use with Windows.
+FSUTIL         Displays or configures the file system properties.
+FTYPE          Displays or modifies file types used in file extension
+               associations.
+GOTO           Directs the Windows command interpreter to a labeled line in
+               a batch program.
+GPRESULT       Displays Group Policy information for machine or user.
+GRAFTABL       Enables Windows to display an extended character set in
+               graphics mode.
+HELP           Provides Help information for Windows commands.
+ICACLS         Display, modify, backup, or restore ACLs for files and
+               directories.
+IF             Performs conditional processing in batch programs.
+LABEL          Creates, changes, or deletes the volume label of a disk.
+MD             Creates a directory.
+MKDIR          Creates a directory.
+MKLINK         Creates Symbolic Links and Hard Links
+MODE           Configures a system device.
+MORE           Displays output one screen at a time.
+MOVE           Moves one or more files from one directory to another
+               directory.
+OPENFILES      Displays files opened by remote users for a file share.
+PATH           Displays or sets a search path for executable files.
+PAUSE          Suspends processing of a batch file and displays a message.
+POPD           Restores the previous value of the current directory saved by
+               PUSHD.
+PRINT          Prints a text file.
+PROMPT         Changes the Windows command prompt.
+PUSHD          Saves the current directory then changes it.
+RD             Removes a directory.
+RECOVER        Recovers readable information from a bad or defective disk.
+REM            Records comments (remarks) in batch files or CONFIG.SYS.
+REN            Renames a file or files.
+RENAME         Renames a file or files.
+REPLACE        Replaces files.
+RMDIR          Removes a directory.
+ROBOCOPY       Advanced utility to copy files and directory trees
+SET            Displays, sets, or removes Windows environment variables.
+SETLOCAL       Begins localization of environment changes in a batch file.
+SC             Displays or configures services (background processes).
+SCHTASKS       Schedules commands and programs to run on a computer.
+SHIFT          Shifts the position of replaceable parameters in batch files.
+SHUTDOWN       Allows proper local or remote shutdown of machine.
+SORT           Sorts input.
+START          Starts a separate window to run a specified program or command.
+SUBST          Associates a path with a drive letter.
+SYSTEMINFO     Displays machine specific properties and configuration.
+TASKLIST       Displays all currently running tasks including services.
+TASKKILL       Kill or stop a running process or application.
+TIME           Displays or sets the system time.
+TITLE          Sets the window title for a CMD.EXE session.
+TREE           Graphically displays the directory structure of a drive or
+               path.
+TYPE           Displays the contents of a text file.
+VER            Displays the Windows version.
+VERIFY         Tells Windows whether to verify that your files are written
+               correctly to a disk.
+VOL            Displays a disk volume label and serial number.
+XCOPY          Copies files and directory trees.
+WMIC           Displays WMI information inside interactive command shell.
+
+For more information on tools see the command-line reference in the online help.
