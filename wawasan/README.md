@@ -18,8 +18,8 @@ Seperti namanya, yaitu mengembangkan perangkat lunak dimulai dari penemuan ide, 
 
 ## *Scrum*
 
-Metode pengembangan software yang sering digunakan sebuah organisasi terstruktur yang terdiri dari *product owner, Scrum master,* dan *Scrum team*.
+Metode pengembangan software yang pengembangannya oleh sebuah organisasi terstruktur yang terdiri dari *product owner, Scrum master,* dan *Scrum team*.
 
 ## *Extreme Programing*
 
-Metode pengembangan software yang digunakan oleh organisasi atau kelompok beranggotakan sedikit.
+Metode pengembangan software yang pengembangannya oleh organisasi atau kelompok beranggotakan sedikit.
