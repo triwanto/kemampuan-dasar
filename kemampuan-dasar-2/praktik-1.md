@@ -4,9 +4,21 @@
 
 > Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 
-There is a set of mock banners available here in three colours and in a range of standard banner sizes:
+HTML Example:
+```
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
 
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
 
+</body>
+</html>
+```
 
 ## Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
 
