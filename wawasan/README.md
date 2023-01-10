@@ -1,4 +1,4 @@
-# RANGKUMAN
+# Rangkuman
 
 ## Teknologi Informasi
 
@@ -6,7 +6,7 @@ Kebanyakan orang mengira bahwa teknologi informasi atau yang sering dikenal deng
 
 ## Perbedaan Teknik Informatika dan Ilmu Komputer
 
-Menurut saya, ilmu komputer lebih condong  dalam penemuan teknologi baru atau mengembangkan yang sudah ada dan pengaplikasiannya dalam software maupun hardware. Misalnya, teknologi blockchain dalam mata uang digital. Sedangkan Teknik Informatika lebih ke bagaimana teknologi tersebut bisa digunakan oleh manusia. Misalnya, bagaimana teknologi blockchain bisa digunakan, yaitu dengan mengembangkan aplikasi wallet.
+Menurut saya, ilmu komputer lebih condong  dalam penemuan teknologi baru atau mengembangkan yang sudah ada dan pengaplikasiannya dalam software maupun hardware. Misalnya, teknologi *blockchain* dalam mata uang digital. Sedangkan Teknik Informatika lebih ke bagaimana teknologi tersebut bisa digunakan oleh manusia. Misalnya, bagaimana teknologi *blockchain* bisa digunakan, yaitu dengan mengembangkan aplikasi *wallet*.
 
 ## Pengembangan Perangkat Lunak
 
